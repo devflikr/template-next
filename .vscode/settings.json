@@ -3,9 +3,11 @@
         "clipboardy",
         "clsx",
         "cryptr",
+        "Flikr",
         "lucide",
         "svgr",
-        "tailwindcss"
+        "tailwindcss",
+        "tippyjs"
     ],
     "files.exclude": {
         "**/.git": true,

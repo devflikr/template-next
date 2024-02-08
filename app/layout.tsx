@@ -9,51 +9,67 @@ import './globals.css'
 // prefix urls with deployed website
 
 export const metadata: Metadata = {
-    title: "", // app title
+    applicationName: "", // app name
     description: "", // app description
+    keywords: "", // app keywords for robots
+    title: "", // app title
 
     /*
-    ! don't set before deploying app
+    ? Only if required */
+    // manifest: "", // app manifest json url
 
-    metadataBase: new URL(""), // base url of app
-    openGraph: {
-        type: "website",
-        url: "", // app deployed website
-        title: "", // can be same as app title
-        description: "", // can be same as app description
-        siteName: "", // can be same as app title
-        images: [
-            {
-                url: "", // meta image for og
-            }
-        ]
-    },
-    icons: [
-        {
-            rel: "icon",
-            url: "/assets/favicon.png",
-        },
-        {
-            rel: "apple-touch-icon",
-            url: "/assets/favicon.png",
-        },
-        {
-            rel: "apple-touch-icon",
-            sizes: "72x72",
-            url: "/assets/favicon.png",
-        },
-        {
-            rel: "apple-touch-icon",
-            url: "/assets/favicon.png",
-        },
-        {
-            rel: "apple-touch-icon",
-            sizes: "144x144",
-            url: "/assets/favicon.png",
-        }
-    ]
 
-    */
+    /*
+    ! Only when deployed */
+    // assets: "", // app assets path
+    // metadataBase: new URL(""), // base url of app
+    // openGraph: {
+    //     type: "website",
+    //     url: "", // app deployed website
+    //     title: "", // can be same as app title
+    //     description: "", // can be same as app description
+    //     siteName: "", // can be same as app title
+    //     images: [
+    //         { url: "", alt: "", height: 0, width: 0 } // meta image for og
+    //     ]
+    // },
+    // twitter: {
+    //     card: "summary_large_image",
+    //     title: "",
+    //     description: "",
+    //     site: "@site",
+    //     siteId: "",
+    //     creator: "@handle",
+    //     creatorId: "",
+    //     images: [
+    //         { url: "", alt: "", height: 0, width: 0 },
+    //     ],
+    // },
+
+    // icons: [
+    //     {
+    //         rel: "icon",
+    //         url: "/assets/favicon.png",
+    //         type: "",
+    //     },
+    // ],
+
+    /*
+    ? Prefilled fields */
+    authors: [
+        {
+            name: "DevFlikr",
+            url: "https://devflikr.com",
+        },
+
+        /*
+        ? Add other authors here */
+    ],
+    creator: "DevFlikr Team",
+    generator: "DevFlikr NextJS Template",
+    publisher: "DevFlikr Organization",
+    referrer: "origin",
+    robots: "index, follow",
 }
 
 export default function RootLayout({
