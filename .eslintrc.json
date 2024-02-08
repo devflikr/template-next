@@ -1,0 +1,60 @@
+{
+    "extends": [
+        "next/core-web-vitals",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:react-hooks/recommended",
+        "prettier"
+    ],
+    "rules": {
+        // add new line above comment
+        "lines-around-comment": [
+            "error",
+            {
+                "beforeLineComment": true,
+                "beforeBlockComment": true,
+                "allowBlockStart": true,
+                "allowClassStart": true,
+                "allowObjectStart": true,
+                "allowArrayStart": true
+            }
+        ],
+        // add new line above return
+        "newline-before-return": "error",
+        // add new line below import
+        "import/newline-after-import": [
+            "error",
+            {
+                "count": 1
+            }
+        ],
+        "@typescript-eslint/ban-types": [
+            "error",
+            {
+                "extendDefaults": true,
+                "types": {
+                    "{}": false
+                }
+            }
+        ]
+    },
+    "plugins": [
+        "import",
+        "react-refresh"
+    ],
+    "settings": {
+        "import/parsers": {
+            "@typescript-eslint/parser": [
+                ".ts",
+                ".tsx"
+            ]
+        },
+        "import/resolver": {
+            "typescript": {
+                "alwaysTryTypes": true,
+                "project": [
+                    "./tsconfig.json"
+                ]
+            }
+        }
+    }
+}
