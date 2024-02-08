@@ -4,6 +4,8 @@
         "clipboardy",
         "clsx",
         "cryptr",
+        "degit",
+        "devflikr",
         "Flikr",
         "lucide",
         "svgr",
@@ -24,7 +26,7 @@
         "**/package-lock.json": true,
         "**/tsconfig.json": true,
         "**/.gitignore": true,
-        // "**/.eslintrc.json": true,
+        "**/.eslintrc.json": true,
         "**/next-env.d.ts": true
     }
 }
