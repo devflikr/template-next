@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: "", // app description
 
     /*
-    !don't set before deploying app
+    ! don't set before deploying app
 
     metadataBase: new URL(""), // base url of app
     openGraph: {

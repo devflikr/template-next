@@ -4,6 +4,7 @@
         "clsx",
         "cryptr",
         "lucide",
+        "svgr",
         "tailwindcss"
     ],
     "files.exclude": {
