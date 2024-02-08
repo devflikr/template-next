@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     //     description: "", // can be same as app description
     //     siteName: "", // can be same as app title
     //     images: [
-    //         { url: "", alt: "", height: 0, width: 0 } // meta image for og
+    //         { url: "", alt: "", height: 0, width: 0 }
     //     ]
     // },
     // twitter: {
@@ -42,16 +42,12 @@ export const metadata: Metadata = {
     //     creator: "@handle",
     //     creatorId: "",
     //     images: [
-    //         { url: "", alt: "", height: 0, width: 0 },
-    //     ],
+    //         { url: "", alt: "", height: 0, width: 0 }
+    //     ]
     // },
 
     // icons: [
-    //     {
-    //         rel: "icon",
-    //         url: "/assets/favicon.png",
-    //         type: "",
-    //     },
+    //     { rel: "icon", url: "/assets/favicon.png", type: "" }
     // ],
 
     /*
@@ -59,8 +55,8 @@ export const metadata: Metadata = {
     authors: [
         {
             name: "DevFlikr",
-            url: "https://devflikr.com",
-        },
+            url: "https://devflikr.com"
+        }
 
         /*
         ? Add other authors here */
@@ -69,11 +65,11 @@ export const metadata: Metadata = {
     generator: "DevFlikr NextJS Template",
     publisher: "DevFlikr Organization",
     referrer: "origin",
-    robots: "index, follow",
+    robots: "index, follow"
 }
 
 export default function RootLayout({
-    children,
+    children
 }: {
     children: React.ReactNode
 }) {

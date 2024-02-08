@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
+        "camelcase",
         "clipboardy",
         "clsx",
         "cryptr",
@@ -23,7 +24,7 @@
         "**/package-lock.json": true,
         "**/tsconfig.json": true,
         "**/.gitignore": true,
-        "**/.eslintrc.json": true,
+        // "**/.eslintrc.json": true,
         "**/next-env.d.ts": true
     }
 }
